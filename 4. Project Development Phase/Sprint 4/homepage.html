@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPhishing_Site</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style1.css') }}">
+    <link rel="stylesheet" href="/css/style1.css">
+</head>
+<body>
+    <Body background="/css/hacker.png">
+    <nav>
+        <ul>
+        <li id="websiteName">ANTI PHISHING</li>
+        <li><a href="/templates/Contact.html">Contact</a></li>
+        <li><a href="{{ url_for('about')+'#about' }}">About</a></li>
+        <li><a href="#">Home</a></li>
+
+        </ul>
+    </nav>
+    
+    <div class="sectionOne" id="home">
+        <section id="section1">
+            
+        </section>
+        <section id="section2">
+            <div id="section2Div">
+                <span id="line1">Are you browsing on a safe website?!<br></span>
+                
+                <br><br>
+                <span id="line2">Check the website now to know if the URL is valid and save yourself from phishing attacks.</span>
+                <br><br><br><br><br>
+                <a href="/templates/Final.html"><span id="checkWebsiteBtn" style="padding: 20px 60px;">Check your website now</span></a>
+            </div>
+        </section>
+    </div>
+
+    <div class="sectionTwo" id="about">
+        <br>
+        <br>
+        <br>
+        <h2>About</h2>
+        <hr>
+        <br>
+    
+        <section id="para">
+        <p id="paraOne" class="para">
+            Web service is one of the key communications software services for the internet. Web phishing is one of the many security threats to web services on the Internet. Web phishing aims to steal private information such as usernames, passwords, and credit card details, by the way of impersonating a legitimate entity.
+        </p>
+
+        <p id="paraTwo" class="para">
+            The recipient is tricked into clicking a malicious link, which can lead to the installation of malware, the freezing of the system as a part pf a randsomware attack or the stealing of sensitive information. It will lead to information disclosure and property damage.
+        </p>
+        </section>
+    </div>
+</Body>
+</body>
+</html>
+

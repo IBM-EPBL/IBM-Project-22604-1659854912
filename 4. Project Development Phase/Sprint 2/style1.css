@@ -1,0 +1,194 @@
+*{
+    margin:0 0;
+}
+
+body{
+    background-color: black;
+    height:100%;
+}
+nav{
+    /* background-image:linear-gradient(to bottom,#380742,#731077); */
+    /* background-color:#e66a17; */
+    background-image:radial-gradient(#2ccdc5 ,#3557e1);
+
+    /* background-image:linear-gradient(to bottom,#7d2d08,#ad5013); */
+
+    /* background-image:linear-gradient(to bottom,#0f0845,#202a65); */
+    color: white;
+    padding:15px 50px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li>a:hover{
+    color: rgb(46, 45, 45);
+    font-size: 30px;
+}
+#websiteName{
+    float: left;
+    font-size: 35px;
+    font-weight: 900;
+}
+.sectionOne{
+    color: white;
+    margin-bottom: 0%;
+}
+#section1{
+    width:60%;
+    float: left; 
+}
+
+#section2{
+    width: 40%;
+    float:right;
+}
+#homepageImg{
+    width:100%;
+    height: 630px;
+}
+#section2Div{
+    padding: 150px 100px;
+}
+
+#line1{
+    font-size: 2.5em;
+    font-weight:600;
+}
+#line2{
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+#checkWebsiteBtn{
+    /* background-color: white; */
+    background-image:radial-gradient(#34d7e9,#227e8c);
+    color: white;
+    padding: 0;
+    border-radius: 20px;
+    font-size: 1.4em;
+    font-weight:800;
+    box-shadow:3px 3px white;
+}
+
+#checkWebsiteBtn:hover{
+    background-image:radial-gradient(#18285c,#964610);
+    box-shadow:3px 3px rgb(175, 173, 173);
+
+    /* box-shadow:none; */
+}
+
+
+.sectionTwo{
+    clear:both;
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 40px;
+    color: black;
+}
+
+.sectionTwo h1{
+    background-image:radial-gradient(#34d7e9,#227e8c);
+    padding: 5px;
+}
+
+.sectionTwo h2{
+    color:black;
+    text-align: center;
+    padding:30px 80px;;
+    font-size: 50px;
+}
+
+#para{
+    padding:0px 40px;
+    padding-bottom: 3%;
+    display:flex;
+}
+
+#paraOne{
+    width:40%;
+    margin-right:5%;
+    margin-left: 3%;
+    float:left;
+    background-image:radial-gradient(#34d7e9,#227e8c);
+    padding:5%;
+    border-radius: 30px;
+    box-shadow:3px 3px white;
+
+
+}
+#paraTwo{
+    width:40%;
+    float:right;
+    background-image:radial-gradient(#34d7e9,#227e8c);
+    padding:5%;
+    border-radius: 30px;
+    box-shadow:3px 3px white;
+
+}
+
+#phishingSection{
+    color: black;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+}
+
+#phishingSection{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#urlInput{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow:3px 3px black;
+}
+
+#predictButton{
+    font-size: 25px;
+    padding: 10px 50px;
+    background-image:radial-gradient(#34d7e9,#227e8c);
+    color: white;
+    font-weight:500;
+    border-radius: 20px;
+    box-shadow:3px 3px black;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+#predictButton:hover
+{
+    background-image:radial-gradient(#34d7e9,#227e8c);
+    box-shadow:3px 3px rgb(175, 173, 173);
+}
+
+#mailId, #message{
+    padding: 5px 100px;
+    width:30%;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+#message{
+    padding: 30px 100px;
+}
+

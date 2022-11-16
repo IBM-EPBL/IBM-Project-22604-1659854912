@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Attachment-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style1.css') }}">
+    <link rel="stylesheet" href="/css/style1.css">
+
+    <title>Final page</title>
+</head>
+
+<body>
+  <Body background="/css/hacker.png">
+
+  <nav>
+    <ul>
+    <li id="websiteName">WEB_PHISHING</li>
+    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+    <li><a href="{{ url_for('about')+'#about' }}">About</a></li>
+    <li><a href="{{ url_for('homepage') }}">Home</a></li>
+    </ul>
+  </nav>
+
+  <form action="{{ url_for('y_predict')}}"method="post">
+  <div id="phishingSection" class="boxContainer">
+    <h1>Phishing website detection using Machine Learning</h1>
+    <br><br>
+
+   
+
+    <input type="text" id="urlInput" name="URL" placeholder="Enter the URL to be verified :" style="padding:10px; width: 600px;margin-left:55%;margin-top:8%">
+         
+    <br><br>
+    <button type="submit" class="btn" value="Check the URL" id="predictButton">Predict</button>
+
+  <div style="text-align: center ;">
+    <div id='result', style="color: rgb(233, 146, 96);padding-top: 3rem;font-size: 2.2rem;font-weight: 600;" font-size:30px;></div>
+      <br><a href=" {{ url }} ">  </a>
+    </div>
+</div>
+</form>
+</Body>
+</body>
+</html>
