@@ -1,3 +1,5 @@
+wheel
+tensorflow
 beautifulsoup4
 Flask
 googlesearch_python
